@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.json
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Large GIS files
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.qpj
+*.hwpx
+
+# Exclude course data directory
+data/raw/*
+data/processed/*
+data/external/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Documentation build
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Output files (keep structure but not content)
+outputs/*
+!outputs/.gitkeep
+
+# Temporary files
+*.tmp
+temp/
+tmp/
