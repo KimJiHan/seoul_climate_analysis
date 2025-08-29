@@ -85,6 +85,9 @@ htmlcov/
 outputs/*
 !outputs/.gitkeep
 
+# Google Drive upload folder
+drive_upload/
+
 # Temporary files
 *.tmp
 temp/
